@@ -1,0 +1,44 @@
+body {
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.logo ul li {
+    display: inline-block;
+    margin: 0 15px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+    position: relative;
+}
+.logo ul li i {
+    border: 1px solid;    
+    width: 50px;
+    height: 33px;
+    padding-top: 15px;
+    border-radius: 100%;
+    font-size: 20px;
+    transition: all .5s ease-in-out;
+    color: #fff;
+    background-color: blueviolet;
+}
+.logo ul li i:hover {
+    margin-bottom: 10px;
+}
+.logo ul li .ig:hover {
+    background-color: #E1306C;
+}
+.logo ul li .fb:hover {
+    background-color: #4267B2;    
+}
+.logo ul li .tw:hover {
+    background-color: #1D9BF0;    
+}
+.logo ul li .gh:hover,
+.logo ul li .tk:hover {
+    background-color: #000;    
+}
